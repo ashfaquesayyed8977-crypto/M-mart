@@ -50,3 +50,40 @@ export default function AdminLoginPage() {
 
         <div className="rounded-2xl bg-white p-8 shadow-2xl">
           <div className="flex flex-col items-center
+<div className="flex min-h-screen items-center justify-center bg-slate-900 px-4">
+  <div className="w-full max-w-md">
+    <Link to="/" className="mb-8 flex items-center justify-center gap-2 text-white">
+      <span className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-600">
+        <Store className="h-6 w-6" />
+      </span>
+      <span className="text-xl font-extrabold">MAHAPOLI MART</span>
+    </Link>
+
+    <div className="rounded-2xl bg-white p-8 shadow-2xl">
+      <div className="flex flex-col items-center">
+        <ShieldCheck className="mb-3 h-12 w-12 text-emerald-600" />
+        <h1 className="text-2xl font-bold">Admin Login</h1>
+        <p className="mt-2 text-center text-sm text-slate-500">
+          Enter your admin password to continue.
+        </p>
+      </div>
+
+      <form onSubmit={handleSubmit} className="mt-8 space-y-5">
+        <Input
+          label="Password"
+          type="password"
+          value={password}
+          onChange={(e) => {
+            setPassword(e.target      <div className="mt-6 text-center">
+        <Link
+          to="/"
+          className="text-sm text-emerald-600 hover:text-emerald-700"
+        >
+          ← Back to Store
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+  );
+          }
